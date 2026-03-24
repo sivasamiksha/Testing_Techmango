@@ -35,6 +35,6 @@ class TextBox {
     
  }
 test('Fill Text Box Form', async ({ page }) => {
-  const box = new TextBox(page); // ✅ pass page
+  const box = new TextBox(page);
   await box.textBoxe();
 });
